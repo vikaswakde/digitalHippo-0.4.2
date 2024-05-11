@@ -1,0 +1,2 @@
+- npx shadcn-ui@latest init
+-src/components/MaxWidthWrapper.tsx
