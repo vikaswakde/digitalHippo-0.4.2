@@ -10,8 +10,6 @@ const nextConfig = {
       },
       {
         hostname: "favourite-pearle-vikasorg-1af1b74b.koyeb.app",
-        pathname: "**",
-        port: "*",
         protocol: "https",
       },
     ],
