@@ -1,6 +1,6 @@
 # Demo
 
-[![DigitalHippo Demo](https://img.youtube.com/vi/TQz6MoFk9KQ/0.jpg)](https://www.youtube.com/watch?v=TQz6MoFk9KQ)
+[![DigitalHippo Demo]()
 
 # DigitalHippo
 
