@@ -20,4 +20,3 @@ export const getServerSideUser = async (
   return { user };
 };
 
-export default getServerSideUser;

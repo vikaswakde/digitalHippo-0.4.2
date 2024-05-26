@@ -5,8 +5,9 @@ import NavItems from "./NavItems";
 import { buttonVariants } from "./ui/button";
 import Cart from "./Cart";
 import { cookies } from "next/headers";
-import getServerSideUser from "@/lib/payload-utlis";
+import { getServerSideUser } from "@/lib/payload-utlis";
 import UserAccountNav from "./UserAccountNav";
+import MobileNav from "./MobileNav";
 
 const Navbar = async () => {
   const nextCookies = cookies();
@@ -19,6 +20,7 @@ const Navbar = async () => {
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
               {/* TODO: Mobile nav */}
+              <MobileNav />
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
                   <Icons.logo className="h-10 w-10" />

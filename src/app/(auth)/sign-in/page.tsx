@@ -18,6 +18,7 @@ import { toast } from "sonner";
 import { ZodError } from "zod";
 const Page = () => {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const origin = searchParams.get("origin");
   const isSeller = searchParams.get("as") === "seller";
 
@@ -39,7 +40,6 @@ const Page = () => {
   const { mutate: signIn, isLoading } = trpc.auth.signIn.useMutation({
     onSuccess: async () => {
       toast.success("Signed in Successfully");
-      router.refresh();
 
       if (origin) {
         router.push(`/${origin}`);
@@ -52,6 +52,7 @@ const Page = () => {
       }
 
       router.push("/");
+      router.refresh();
     },
     onError: (err) => {
       if (err.data?.code === "UNAUTHORIZED") {
@@ -59,8 +60,6 @@ const Page = () => {
       }
     },
   });
-
-  const router = useRouter();
 
   //     onError: (err) => {
   //       if (err.data?.code === "CONFLICT") {
