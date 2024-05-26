@@ -1,10 +1,12 @@
-# Demo
+# Demo  - [Live](https://favourite-pearle-vikasorg-1af1b74b.koyeb.app/)
 
-[![DigitalHippo Demo]()
+[![DigitalHippo Demo](https://img.youtube.com/vi/4PuLug0JUkM/0.jpg)](https://www.youtube.com/watch?v=4PuLug0JUkM)
+
+
 
 # DigitalHippo
 
-DigitalHippo is a modern and feature-rich Digital Web MarketPlace built with TypeScript, React, Tailwind CSS, TRPC, Shadcn UI, PayloadCMS, & Stripe.
+DigitalHippo is a modern and feature-rich Digital Web MarketPlace built with TypeScript, React, Tailwind CSS, TRPC, Shadcn UI, PayloadCMS, & Stripe. Hosted using - [Koyeb](https://www.koyeb.com/)
 
 
 ## Features
@@ -16,7 +18,6 @@ DigitalHippo is a modern and feature-rich Digital Web MarketPlace built with Typ
 - 🛍️ **User Commerce**: Users can purchase and sell their own products
 - 🛒 **Persistent Shopping Cart**: Locally saved shopping cart for convenience
 - 🔑 **Secure Authentication**: Robust authentication using Payload
-- 🖥️ **Self-Hosting**: Learn how to self-host Next.js applications
 - 🌟 **Modern UI**: Sleek, clean interface using shadcn-ui
 - ✉️ **Stylish Emails**: Beautifully designed emails for sign-up and post-purchase notifications
 - ✅ **Product Verification**: Admins can verify products to ensure high quality
@@ -56,3 +57,4 @@ This project is licensed under the [MIT License](LICENSE).
 - [Shadcn UI](https://ui.shadcn.com/)
 - [PaylodCMS](https://payloadcms.com/)
 - [Stripe](https://stripe.com/)
+- [Koyeb](https://www.koyeb.com/)
